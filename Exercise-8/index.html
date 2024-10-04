@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            /* display: flex; */
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+    
+        .container {
+            text-align: center;
+            border-color: black;
+        }
+    
+        .input-container {
+            margin-bottom: 20px;
+            /* display: inline-block; */
+        }
+        img{
+            width: 600px;
+            height: 400px;
+        }
+        #canvas{
+            border:1px solid black;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="input-container">
+            <input type="number" id="row" placeholder="Enter Row (0-9)">
+            <input type="number" id="column" placeholder="Enter Column (0-9)">
+            <button id="displayBtn">Display Image</button>
+        </div>
+        <div id="canvas-conatiner">
+            <canvas id="canvas"  width="750" height="530"></canvas>
+        </div>
+       
+        <img id="image"src="nvidia-logo.jpg" alt="logo">
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

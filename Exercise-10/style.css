@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#board {
+    width: 240px;
+    height: 240px;
+    border: 2px solid #800080;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+#board img {
+    width: 79px;
+    height: 79px;
+    border: 0.5px solid rgb(9, 10, 10);
+}
+
+
+#pieces {
+    width: 400px;
+    height: 160px;
+    border: 0.5px solid rgb(11, 11, 11);
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#pieces img {
+    width: 79px;
+    height: 79px;
+    border: 0.5px solid rgb(10, 11, 11);
+}

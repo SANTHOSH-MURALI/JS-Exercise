@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+    <title>Image Click Information</title>
+    <style>
+        img {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            cursor: pointer;
+        }
+        #info {
+            margin-top: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Click on an Organisation Logo</h1>
+    <div id="image-container">
+        <!-- Images will be added here -->
+        <img src="google-logo.png" alt="Google" data-index="0">
+        <img src="apple-logo.jpg" alt="Apple" data-index="1">
+        <img src="adidas logo.png" alt="Adidas" data-index="2">
+        <img src="android-logo.jpg" alt="android" data-index="3">
+        <img src="benz-logo.jpeg" alt="benz" data-index="4">
+        <img src="nike-logo.png" alt="Nike" data-index="5">
+        <img src="jaguar-logo.jpeg" alt="Jaguar" data-index="6">
+        <img src="nvidia-logo.jpg" alt="Nvidia" data-index="7">
+        <img src="hcl-logo.jpeg" alt="HCL" data-index="8">
+        <img src="infosys-logo.jpg" alt="Infosys" data-index="9">
+    </div>
+
+    <div id="info">
+        <h3>Organisation Information:</h3>
+        <p><strong>Organisation Name:</strong> <span id="org-name"></span></p>
+        <p><strong>CEO:</strong> <span id="org-ceo"></span></p>
+        <p><strong>Year Of Start:</strong> <span id="org-year"></span></p>
+        <p><strong>Mouse Button Clicked:</strong> <span id="mouse-button"></span></p>
+        <p><strong>Coordinates:</strong> <span id="coordinates"></span></p>
+    </div>
+
+    <script src="script.js">    
+    </script>
+</body>
+</html>
